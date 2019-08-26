@@ -9,7 +9,7 @@ Requirements:
 Usage:
   1. Build it with this command in terminal (while being at root directory):
     - "docker build -t image-builder ."
-  2. Run the image formatted like this
+  2. Run the image formatted like this inside terminal
   - "docker run -it -v /var/run/docker.sock:/var/run/docker.sock <insert-github-url-here.git>"
   - e.g: docker run -it -v /var/run/docker.sock:/var/run/docker.sock image-builder https://github.com/docker-hy/ml-kurkkumopo-frontend
   3. Enter dockerhub username & password when prompted.
