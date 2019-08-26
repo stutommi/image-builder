@@ -1,3 +1,3 @@
-FROM ubuntu:alpine
+FROM alpine
 
 RUN echo "WHOOPII"
