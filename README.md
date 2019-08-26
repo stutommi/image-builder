@@ -1,4 +1,4 @@
-This simple script to publish any github project repo as a docker image in dockerhub
+This is a simple script to publish any github project repo as a docker image in dockerhub
 
 Requirements:
 
