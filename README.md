@@ -7,7 +7,7 @@ Requirements:
 - A single dockerfile in root of the github project
 
 Usage:
-  1. Build it like this:
+  1. Build it with this command in terminal (while being at root directory):
     - "docker build -t image-builder ."
   2. Run the image formatted like this
   - "docker run -it -v /var/run/docker.sock:/var/run/docker.sock <insert-github-url-here.git>"
